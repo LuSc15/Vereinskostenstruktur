@@ -7,5 +7,22 @@ namespace Vereinskostenstruktur
 {
     public class UnterstuetzendesMitglied : Mitglied
     {
+        public UnterstuetzendesMitglied(string name):base(name) 
+        {
+        }
+        public override void Ausgabe()
+        {
+            throw new NotImplementedException();
+
+        }
+
+        public override double GetAusgaben()
+        {
+            return base.GetAusgaben();
+        }
+        public override double GetEinnahmen()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

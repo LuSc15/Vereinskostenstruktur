@@ -17,6 +17,10 @@ namespace Vereinskostenstruktur
         {
             return aktivitaet * 1.5 * 12;
         }
+        public override double GetAusgaben()
+        {
+            return _aktivitaetsGrad * 1.5 * 12;
+        }
         public override double GetEinnahmen()
         {
             return 25 * 12;

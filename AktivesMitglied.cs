@@ -7,9 +7,9 @@ namespace Vereinskostenstruktur
 {
     public abstract class AktivesMitglied : Mitglied
     {
-        private double _monatlicherBeitrag;
-        private int _aktivitaetsGrad;
-        private double _ausgaben;
+        protected double _monatlicherBeitrag;
+        protected int _aktivitaetsGrad;
+        protected double _ausgaben;
 
         public AktivesMitglied(string name, int aktivitaet):base(name)
         {
@@ -33,7 +33,7 @@ namespace Vereinskostenstruktur
         }
         public override double GetUeberschuss()
         {
-            return 0;
+            return this.GetEinnahmen()-this.GetAusgaben();
         }
         
         public override void Ausgabe()

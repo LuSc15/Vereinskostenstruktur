@@ -7,5 +7,14 @@ namespace Vereinskostenstruktur
 {
     public class Trainer : AktivesMitglied
     {
+
+        public Trainer(string name, int aktivitaet):base(name,aktivitaet)
+        {
+
+        }
+        public override double GetAusgaben(int aktivitaet)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
