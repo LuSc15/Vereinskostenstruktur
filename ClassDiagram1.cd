@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Vereinskostenstruktur.Mitglied">
+    <Position X="6.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAACAgAAAAAAAAAAgAAMECAAAAAg=</HashCode>
+      <FileName>Mitglied.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vereinskostenstruktur.Verein">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAIAAAAAAAAAAAAAAAgAAAAAAAAAAg=</HashCode>
+      <FileName>Verein.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vereinskostenstruktur.UnterstuetzendesMitglied">
+    <Position X="4.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UnterstuetzendesMitglied.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vereinskostenstruktur.AktivesMitglied">
+    <Position X="7.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAEAAAAAgAAIACAAAAAg=</HashCode>
+      <FileName>AktivesMitglied.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vereinskostenstruktur.SpitzenSportler">
+    <Position X="10.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAgAAAAAAAAAAg=</HashCode>
+      <FileName>SpitzenSportler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vereinskostenstruktur.AmateurSportler">
+    <Position X="5.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAgAAAAAAAAAAg=</HashCode>
+      <FileName>Amateursportler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vereinskostenstruktur.Vorstandsmitglied">
+    <Position X="6" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vorstandsmitglied.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vereinskostenstruktur.Trainer">
+    <Position X="8.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Trainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
