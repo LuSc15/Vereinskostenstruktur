@@ -22,8 +22,10 @@ namespace Vereinskostenstruktur
             double gesamtAusgaben = 0;
             foreach(Mitglied m in _Mitgliederliste)
             {
+               
                 gesamtAusgaben += m.GetAusgaben();
             }
+            _ausgaben = gesamtAusgaben;
             return gesamtAusgaben;
         }
         public override double GetEinnahmen()
@@ -33,22 +35,19 @@ namespace Vereinskostenstruktur
             {
                 gesamtEinnahmen += m.GetEinnahmen();
             }
+            _einnahmen = gesamtEinnahmen;
             return gesamtEinnahmen;
-        }
-        public override double GetUeberschuss()
-        {
-            return GetEinnahmen() - GetAusgaben();
         }
         public override void Ausgabe()
         {
             
             Console.WriteLine($"Vereinsname: {_name}");
-            Console.WriteLine($"{"Name",-10}{"Einnahmen",10},{"Ausgaben",10}{"Überschuss",10}");
+            Console.WriteLine($"{"Name",-10}{"Einnahmen",10}{"Ausgaben",10}{"Überschuss",15}");
             foreach (Mitglied m in _Mitgliederliste)
             {
-                Console.WriteLine($"{m.getName(),-12}{m.GetEinnahmen(),-10}{m.GetAusgaben(),-10}{m.GetUeberschuss(),-10}");
+                Console.WriteLine($"{m.getName(),-12}{m.GetEinnahmen(),-10}{m.GetAusgaben(),-10}{m.GetUeberschuss(),6}");
             }
-            Console.WriteLine($"{"Gesamt:",-12}{this.GetEinnahmen(),-10}{this.GetAusgaben(),-10}{this.GetUeberschuss(),-10}");
+            Console.WriteLine($"{"Gesamt:",-12}{this.GetEinnahmen(),-10} €{this.GetAusgaben(),-10} €{this.GetUeberschuss(),6} €\n");
         }
         public void MitgliedHinzufuegen(Mitglied mitglied)
         { 
